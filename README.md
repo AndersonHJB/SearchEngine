@@ -27,7 +27,7 @@
 
 - FindEngine 0.0.1：[https://pypi.org/project/FindEngine/0.0.1/](https://pypi.org/project/FindEngine/0.0.1/)
 
-- 代码环境搭建：
+- 代码环境搭建：[https://github.com/AndersonHJB/SearchEngine/commit/ea4a1d059861dce3ff1fa7932e56f28c61789bd4](https://github.com/AndersonHJB/SearchEngine/commit/ea4a1d059861dce3ff1fa7932e56f28c61789bd4)
 
 - 初始化环境命令：`pip install wheel setuptools twine`
 
