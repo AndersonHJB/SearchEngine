@@ -6,8 +6,8 @@
 
 如果，你无法理解什么是全局搜索，我这里举两个 IDE 的例子。
 
-- PyCharm：[]
-- VsCode：[]
+- PyCharm：[https://bornforthis.cn/blog/2023/2month/How-does-pycharm-find-a-keyword-globally.html](https://bornforthis.cn/blog/2023/2month/How-does-pycharm-find-a-keyword-globally.html)
+- VsCode：[https://bornforthis.cn/blog/2023/2month/vscode-shortcut-key-global-search.html](https://bornforthis.cn/blog/2023/2month/vscode-shortcut-key-global-search.html)
 
 **是什么驱使我准备深度开发此库呢？**
 
