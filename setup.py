@@ -12,13 +12,13 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'mypackage'
-DESCRIPTION = 'My short description for my project.'
-URL = 'https://github.com/me/myproject'
-EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+NAME = 'FindEngine'
+DESCRIPTION = 'SearchEngine——Global Search,Global-SearchEngine'
+URL = 'https://github.com/AndersonHJB/SearchEngine'
+EMAIL = 'aiyuechuang@gmail.com'
+AUTHOR = 'Bornforthis'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.0'
+VERSION = '0.0.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -81,7 +81,7 @@ class UploadCommand(Command):
 
         self.status('Building Source and Wheel (universal) distribution…')
         os.system('{0} setup.py sdist bdist_wheel --universal'.format(sys.executable))
-
+        os.system('python3 -m build')
         self.status('Uploading the package to PyPI via Twine…')
         os.system('twine upload dist/*')
 
@@ -105,7 +105,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     # If your package is a single module, use this instead of 'packages':
-    # py_modules=['mypackage'],
+    # py_modules=['SearchEngine'],
 
     # entry_points={
     #     'console_scripts': ['mycli=mymodule:cli'],
