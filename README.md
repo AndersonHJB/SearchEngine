@@ -29,7 +29,7 @@
 
 - 代码环境搭建：
 
-
+- 初始化环境命令：`pip install wheel setuptools twine`
 
 
 
@@ -50,6 +50,12 @@
 > Anyone is free to use and share this software, in both source code and compiled binary forms, for both commercial and non-commercial purposes, as long as the repository and blog links are attributed.
 
 
+
+## 相关链接
+
+- aiyc1v1：[https://github.com/AndersonHJB/aiyc1v1](https://github.com/AndersonHJB/aiyc1v1)
+- setup.py：[https://github.com/AndersonHJB/setup.py](https://github.com/AndersonHJB/setup.py)
+- PyPi：[https://pypi.org/user/Bornforthis/](https://pypi.org/user/Bornforthis/)
 
 
 
